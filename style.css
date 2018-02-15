@@ -1,0 +1,133 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    height:17px;
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:183px; 
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    height:28px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:40px;
+    
+}
+span{
+    margin-top: 5px;
+}
+.right{
+    display: flex;
+    justify-content: flex-start;
+    
+    width: 250px;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+.red{
+    color: red;
+}
+.button {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.all:hover{
+    color: white;
+    background: rgb(160, 165, 160);
+}
+.online:hover{
+    color: white;
+    background: rgb(105, 158, 105);
+}
+.offline:hover{
+    color: white;
+    background: rgb(151, 37, 43);
+}
+.players-online{
+    /*height: 50px;*/
+    background: rgb(38, 201, 38);
+    
+}
+.players-offline{
+    background: rgb(180, 47, 47);
+}
+.players {
+    display: flex;
+    border-bottom: 3px solid white;
+  
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.big{
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    
+
+}
+.mid{
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+}
+.little{
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+  
+
+
